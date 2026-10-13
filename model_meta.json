@@ -1,0 +1,91 @@
+{
+  "model_name": "Linear regression with location",
+  "training_rows": 54839,
+  "test_rows": 13710,
+  "test_rmse": 138587.83888299952,
+  "test_mae": 97118.82648136534,
+  "test_r2": 0.7133235151660056,
+  "ratio_low": 0.5337218822784172,
+  "ratio_high": 1.552505941441892,
+  "townships": [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "17",
+    "19",
+    "20",
+    "21",
+    "24",
+    "26",
+    "27",
+    "28",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "36",
+    "37",
+    "39",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77"
+  ],
+  "classes": [
+    "202",
+    "203",
+    "204",
+    "205",
+    "206",
+    "207",
+    "208",
+    "210",
+    "234",
+    "278",
+    "295"
+  ],
+  "ranges": {
+    "building_sqft": [
+      400.0,
+      4328.0
+    ],
+    "lot_sqft": [
+      358.0,
+      40597.0
+    ],
+    "bedrooms": [
+      1.0,
+      8.0
+    ],
+    "full_bathrooms": [
+      1.0,
+      6.0
+    ],
+    "half_bathrooms": [
+      0.0,
+      4.0
+    ],
+    "year_built": [
+      1853.0,
+      2025.0
+    ]
+  },
+  "defaults": {
+    "building_sqft": 1269.0,
+    "lot_sqft": 5000.0,
+    "bedrooms": 3.0,
+    "full_bathrooms": 1.0,
+    "half_bathrooms": 0.0,
+    "year_built": 1954.0
+  },
+  "assumed_sale_year": 2025,
+  "assumed_sale_month": 6,
+  "data_years": "2023 to 2025"
+}
